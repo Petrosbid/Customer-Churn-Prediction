@@ -21,9 +21,9 @@ import numpy as np
 
 # --- بارگذاری مدل، scaler و ستون‌های ذخیره شده ---
 try:
-    model = joblib.load('churn_model.joblib')
-    scaler = joblib.load('scaler.joblib')
-    model_columns = joblib.load('model_columns.joblib')
+    model = joblib.load('v1/CUSTOMER_CHURN/models/churn_model.joblib')
+    scaler = joblib.load('v1/CUSTOMER_CHURN/models/scaler.joblib')
+    model_columns = joblib.load('v1/CUSTOMER_CHURN/models/model_columns.joblib')
 except FileNotFoundError:
     st.error("فایل‌های مدل یافت نشدند! لطفاً ابتدا اسکریپت train_model.py یا train_model_advanced.py را اجرا کنید.")
     st.stop()

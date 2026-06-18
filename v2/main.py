@@ -49,7 +49,7 @@ print("Data preprocessing completed.")
 
 # --- 2. آماده‌سازی داده‌ها برای مدل‌سازی ---
 model_columns = list(X.columns)
-joblib.dump(model_columns, 'model_columns.joblib')
+joblib.dump(model_columns, 'models/model_columns.joblib')
 
 # تقسیم داده‌ها به آموزش و تست (۸۰٪ آموزش، ۲۰٪ تست)
 X_train_orig, X_test_orig, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -96,8 +96,8 @@ print(classification_report(y_test, y_pred))
 print("-----------------------------------------")
 
 # --- 4. ذخیره مدل و Scaler ---
-joblib.dump(best_model, 'churn_model.joblib')
-joblib.dump(scaler, 'scaler.joblib')
+joblib.dump(best_model, 'models/churn_model.joblib')
+joblib.dump(scaler, 'models/scaler.joblib')
 print("Model and Scaler successfully saved.")
 
 # --- 5. ساخت و ذخیره نمودارها ---

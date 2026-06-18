@@ -6,9 +6,9 @@ import numpy as np
 
 # --- بارگذاری مدل، scaler و ستون‌های ذخیره شده ---
 try:
-    model = joblib.load('churn_model.joblib')
-    scaler = joblib.load('scaler.joblib')
-    model_columns = joblib.load('model_columns.joblib')
+    model = joblib.load('v2/models/churn_model.joblib')
+    scaler = joblib.load('v2/models/scaler.joblib')
+    model_columns = joblib.load('v2/models/model_columns.joblib')
 except FileNotFoundError:
     st.error("فایل‌های مدل یافت نشدند! لطفاً ابتدا اسکریپت main.py را برای آموزش مدل اجرا کنید.")
     st.stop()

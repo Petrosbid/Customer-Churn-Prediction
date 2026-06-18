@@ -25,10 +25,6 @@
 
 A comprehensive **Customer Churn Prediction System** built with machine learning that helps businesses identify customers who are likely to cancel their subscriptions. This project uses advanced XGBoost algorithms and provides both a web interface and programmatic access for churn prediction.
 
-## screenshots
-<img width="1920" height="2321" alt="screencapture-localhost-8501-2026-06-18-12_30_44" src="https://github.com/user-attachments/assets/910f5a55-8d2c-4282-9fc9-8e71a4ee6338" />
-
-
 ### Why Customer Churn Prediction Matters
 
 - **Cost Reduction**: Acquiring new customers costs 5-25x more than retaining existing ones
@@ -189,15 +185,16 @@ The model identifies key churn indicators:
 4. **View Results**: See churn probability and recommendations
 
 ### Programmatic Usage
+
 ```python
 import joblib
 import pandas as pd
 import numpy as np
 
 # Load trained model
-model = joblib.load('churn_model.joblib')
-scaler = joblib.load('scaler.joblib')
-model_columns = joblib.load('model_columns.joblib')
+model = joblib.load('v1/churn_model.joblib')
+scaler = joblib.load('v1/scaler.joblib')
+model_columns = joblib.load('v1/model_columns.joblib')
 
 # Prepare customer data
 customer_data = {

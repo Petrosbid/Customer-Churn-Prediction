@@ -47,8 +47,8 @@ X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
 
 # ذخیره کردن ستون‌های مدل و scaler برای استفاده در app.py
-joblib.dump(model_columns, 'model_columns.joblib')
-joblib.dump(scaler, 'scaler.joblib')
+joblib.dump(model_columns, 'models/model_columns.joblib')
+joblib.dump(scaler, 'models/scaler.joblib')
 
 # تنظیم پارامترها برای GridSearchCV
 param_grid = {
@@ -72,7 +72,7 @@ print(grid_search.best_params_)
 print("-----------------------------------\n")
 
 # ذخیره مدل نهایی برتر
-joblib.dump(best_model, 'churn_model.joblib')
+joblib.dump(best_model, 'models/churn_model.joblib')
 
 # --- 3. پیش‌بینی و ارزیابی مدل نهایی ---
 print("--- Evaluation results of the best model (XGBoost) ---")
