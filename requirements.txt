@@ -1,0 +1,12 @@
+streamlit
+pandas 
+joblib
+numpy 
+seaborn
+matplotlib.pyplot
+joblib
+sklearn.model_selection
+sklearn.preprocessing
+xgboost
+sklearn.metrics
+sklearn
