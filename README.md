@@ -25,6 +25,10 @@
 
 A comprehensive **Customer Churn Prediction System** built with machine learning that helps businesses identify customers who are likely to cancel their subscriptions. This project uses advanced XGBoost algorithms and provides both a web interface and programmatic access for churn prediction.
 
+## screenshots
+<img width="1920" height="2321" alt="screencapture-localhost-8501-2026-06-18-12_30_44" src="https://github.com/user-attachments/assets/910f5a55-8d2c-4282-9fc9-8e71a4ee6338" />
+
+
 ### Why Customer Churn Prediction Matters
 
 - **Cost Reduction**: Acquiring new customers costs 5-25x more than retaining existing ones
