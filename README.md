@@ -292,10 +292,6 @@ We welcome contributions! Please follow these steps:
 - Include system information
 - Attach relevant logs
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **IBM Watson Analytics** for the Telco Customer Churn dataset
@@ -305,11 +301,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-<div align="center">
-
-**⭐ Star this repository if you found it helpful!**
-
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/customer-churn-prediction.svg?style=social&label=Star)](https://github.com/yourusername/customer-churn-prediction)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/customer-churn-prediction.svg?style=social&label=Fork)](https://github.com/yourusername/customer-churn-prediction/fork)
-
-</div>
